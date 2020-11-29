@@ -9,4 +9,13 @@ read MY_NAME
 echo "Welcome $MY_NAME - I hope all is well, and you are ready to do this! "
 echo "I just created your own file called  ${MY_NAME}_plik  enjoy! "
 touch "${MY_NAME}_plik"
+Echo "Now let's fill it up! "
+Echo "But first a Pop quiz! What year was the first book printed by Gutenberg ?"
+INPUT_STRING=cześć
+while [ "$INPUT_STRING" != 1455 ]
+do
+  echo "Can you guess?Press  CTRL+ C to give up!"
+  read INPUT_STRING
+done
+
 
