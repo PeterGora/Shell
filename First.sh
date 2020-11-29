@@ -1,8 +1,10 @@
 #!/bin/sh
 # To jest komentarz!
-echo Hello Berlin	# To też jest komentarz!
+
 echo "Hello Berlin"
-echo "Hello * BERLIN"
-MY_MESSAGE="Why the World? Why not the universe? Heloo Universe!!!!"
+MY_MESSAGE="Why the World? Why not the universe? Hello Universe!!!!"
 echo $MY_MESSAGE
+echo "What is your name?"
+read MY_NAME
+echo "Welcome $MY_NAME - I hope all is well, and you are ready to do this! "
 
